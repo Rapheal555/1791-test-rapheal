@@ -1,5 +1,13 @@
 # Animated Page Transitions with Framer Motion
 
+## 🚀 Live Preview
+
+**[View Live Demo →](https://1791-test-rapheal.vercel.app/)**
+
+Experience the advanced page transitions in action with real-time performance monitoring and interactive controls.
+
+---
+
 A comprehensive example of smooth, professional page transitions using Framer Motion and Next.js App Router.
 
 ## Features
@@ -97,4 +105,3 @@ const transitions = {
 - Uses hardware acceleration when available
 - Minimal JavaScript bundle impact
 - Efficient memory usage with proper cleanup
-\`\`\`
