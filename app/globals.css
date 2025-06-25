@@ -10,6 +10,18 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .rotateX-180 {
+    transform: rotateX(180deg);
+  }
 }
 
 @layer base {
@@ -91,4 +103,18 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@keyframes liquidPulse {
+  0%,
+  100% {
+    clip-path: circle(30% at 50% 50%);
+  }
+  50% {
+    clip-path: circle(60% at 50% 50%);
+  }
+}
+
+.animate-liquid-pulse {
+  animation: liquidPulse 3s ease-in-out infinite;
 }
